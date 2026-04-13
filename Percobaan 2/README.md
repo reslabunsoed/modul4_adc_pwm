@@ -76,12 +76,12 @@ void loop() {
 ```
   
 3. Simpan scetch dengan nama file modul4_percobaan2
-5. konfigurasi rangkaian
+4. konfigurasi rangkaian
 
 Membuat rangkaian yang menghubungkan Arduino, Potensiometer dengan pin analog dan LED dengan pin PWM menggunakan breadboard sesuai dengan gambar berikut:
 <img width="1536" height="632" alt="led_potensio" src="https://github.com/user-attachments/assets/f5bf163c-910a-4eef-841f-0396b768c9a0" />
 
-7. Pertanyaan praktikum
+5. Pertanyaan praktikum
 - Jelaskan mengapa LED dapat diatur kecerahannya menggunakan fungsi analogWrite()!
 - Apa hubungan antara nilai ADC (0–1023) dan nilai PWM (0–255)?
 - Modifikasilah program berikut agar LED hanya menyala pada rentang kecerahan sedang, yaitu hanya ketika nilai PWM berada pada rentang 50 sampai 200. Jelaskan program pada file README.md.
