@@ -106,7 +106,7 @@ analogRead(pin);
 
 Selanjutnya dapat membuka bagian percobaan di [Percobaan 4A: Analog to Digital Converter](https://github.com/reslabunsoed/modul4_adc_pwm/tree/f475b133e0ab903880fb2ab24aede81f04d8948a/Percobaan%201)
 
-<h3><a href="Percobaan 2">Percobaan 5B: Pulse Width Modulation (PWM)</a></h3>
+<h3><a href="Percobaan 2">Percobaan 4B: Pulse Width Modulation (PWM)</a></h3>
 
 PWM (Pulse Width Modulation) adalah teknik untuk menghasilkan sinyal analog semu menggunakan sinyal digital dengan cara mengatur lebar pulsa (duty cycle). PWM biasanya digunakan untuk mengatur kecerahan LED, mengontrol kecepatan motor DC dan mengatur intensitas daya pada perangkat.
 
@@ -117,6 +117,10 @@ analogWrite(pin, value);
 Selanjutnya dapat membuka bagian percobaan di [Percobaan 4B : Pulse Width Modulation (PWM)](https://github.com/reslabunsoed/modul4_adc_pwm/tree/f475b133e0ab903880fb2ab24aede81f04d8948a/Percobaan%202)
 
 ## 📚 Pertanyaan Praktikum
+
+- Bagaimana proses konversi sinyal analog menjadi digital pada Arduino? Jelaskan!
+- Faktor apa saja yang dapat mempengaruhi keakuratan pembacaan ADC?
+- Apa kendala yang mungkin terjadi saat mengintegrasikan ADC dan PWM dalam satu sistem?
 
 ## 🧰 Mengakhiri Percobaan
 
