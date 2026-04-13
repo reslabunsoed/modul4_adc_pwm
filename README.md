@@ -10,24 +10,6 @@ Dalam pengembangan sistem embedded menggunakan Arduino, dua konsep penting yang 
 
 <img width="1024" height="562" alt="image" src="https://github.com/user-attachments/assets/f2dee8fd-12ab-411f-b952-be1b45baa8f0" />
 
-<h3><a href="1. Analog to Digital Converter (ADC)">Analog to Digital Converter (ADC)</a></h3>
-
-ADC (Analog to Digital Converter) adalah fitur yang digunakan untuk mengubah sinyal analog menjadi data digital yang dapat diproses oleh mikrokontroler. Contohnya Potensiometer menghasilkan nilai tegangan variabel.
-
-Pembacaan ADC dilakukan menggunakan fungsi:
-```cpp
-analogRead(pin);
-```
-
-<h3><a href="2. Pulse Width Modulation">Pulse Width Modulation (PWM)</a></h3>
-
-PWM (Pulse Width Modulation) adalah teknik untuk menghasilkan sinyal analog semu menggunakan sinyal digital dengan cara mengatur lebar pulsa (duty cycle). PWM biasanya digunakan untuk mengatur kecerahan LED, mengontrol kecepatan motor DC dan mengatur intensitas daya pada perangkat.
-
-Nilai PWM pada Arduino umumnya berkisar antara 0 hingga 255 yang dikontrol menggunakan fungsi:
-```cpp
-analogWrite(pin, value);
-```
-
 ADC dan PWM sering digunakan bersamaan dalam berbagai aplikasi, misalnya membaca nilai dari potensiometer (ADC) dan menggunakan nilai tersebut untuk mengatur kecerahan LED (PWM). Dengan kombinasi ini, Arduino dapat menerima input analog, memproses data dan menghasilkan output yang responsif.
 
 ### Kontrol LED dengan PWM
@@ -81,7 +63,58 @@ https://github.com/user-attachments/assets/8bf525fb-8429-4420-a6c9-8ecb123c1c27
 
 ## ⚙️ Alat dan Bahan
 
+Dalam percobaan sederhana ini, berikut alat dan bahan yang digunakan:
+
+<div align="center">
+<table border="1" cellpadding="10" cellspacing="0" width="100%">
+  <tr>
+    <th>Arduino</th>
+    <th>Potensiometer</th>
+    <th>Motor Servo</th>
+  </tr>
+
+  <tr align="center">
+    <td>
+      <img width="192" height="136,1" alt="arduino_uno" src="https://github.com/user-attachments/assets/3e61e208-bb23-42aa-bbef-0ac539279ce0" /><br>
+    </td>
+    <td>
+      <img width="179,5" height="175,75" alt="image" src="https://github.com/user-attachments/assets/f44c78e5-fd37-47e0-a2f4-0a5af2b6c86a" />
+    </td>
+    <td>
+      <img width="318" height="260" alt="image" src="https://github.com/user-attachments/assets/e54280b7-5fd3-4ce7-b4f8-41163ed3bed3" /><br>
+    </td>
+  </tr>
+
+  <tr align="center">
+    <td>Arduino Uno, Leonardo, atau lainnya</td>
+    <td>Potensiometer</td>
+    <td>Motor Servo</td>
+  </tr>
+</table>
+</div>
+
 ## 💻 Percobaan
+
+<h3><a href="Percobaan 1">Percobaan 4A: Analog to Digital Converter (ADC)</a></h3>
+
+ADC (Analog to Digital Converter) adalah fitur yang digunakan untuk mengubah sinyal analog menjadi data digital yang dapat diproses oleh mikrokontroler. Contohnya Potensiometer menghasilkan nilai tegangan variabel.
+
+Pembacaan ADC dilakukan menggunakan fungsi:
+```cpp
+analogRead(pin);
+```
+
+Selanjutnya dapat membuka bagian percobaan di [Percobaan 4A: Analog to Digital Converter](https://github.com/reslabunsoed/modul4_adc_pwm/tree/f475b133e0ab903880fb2ab24aede81f04d8948a/Percobaan%201)
+
+<h3><a href="Percobaan 2">Percobaan 5B: Pulse Width Modulation (PWM)</a></h3>
+
+PWM (Pulse Width Modulation) adalah teknik untuk menghasilkan sinyal analog semu menggunakan sinyal digital dengan cara mengatur lebar pulsa (duty cycle). PWM biasanya digunakan untuk mengatur kecerahan LED, mengontrol kecepatan motor DC dan mengatur intensitas daya pada perangkat.
+
+Nilai PWM pada Arduino umumnya berkisar antara 0 hingga 255 yang dikontrol menggunakan fungsi:
+```cpp
+analogWrite(pin, value);
+```
+Selanjutnya dapat membuka bagian percobaan di [Percobaan 4B : Pulse Width Modulation (PWM)](https://github.com/reslabunsoed/modul4_adc_pwm/tree/f475b133e0ab903880fb2ab24aede81f04d8948a/Percobaan%202)
 
 ## 📚 Pertanyaan Praktikum
 
