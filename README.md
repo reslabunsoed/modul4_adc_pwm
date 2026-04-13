@@ -71,6 +71,7 @@ Dalam percobaan sederhana ini, berikut alat dan bahan yang digunakan:
     <th>Arduino</th>
     <th>Potensiometer</th>
     <th>Motor Servo</th>
+    <th>LED</th>
   </tr>
 
   <tr align="center">
@@ -83,12 +84,16 @@ Dalam percobaan sederhana ini, berikut alat dan bahan yang digunakan:
     <td>
       <img width="318" height="260" alt="image" src="https://github.com/user-attachments/assets/e54280b7-5fd3-4ce7-b4f8-41163ed3bed3" /><br>
     </td>
+    <td>
+      <img width="54" height="134" alt="RedLED_Fritzing" src="https://github.com/user-attachments/assets/80556570-c129-43fa-904b-39eac5677a2d" />
+    </td>
   </tr>
 
   <tr align="center">
     <td>Arduino Uno, Leonardo, atau lainnya</td>
     <td>Potensiometer</td>
     <td>Motor Servo</td>
+    <td>LED Merah</td>
   </tr>
 </table>
 </div>
@@ -104,6 +109,8 @@ Pembacaan ADC dilakukan menggunakan fungsi:
 analogRead(pin);
 ```
 
+Pada percobaan ADC praktikan akan mengendalikan perputaran motor servo dengan menggunakan potensiometer.
+
 Selanjutnya dapat membuka bagian percobaan di [Percobaan 4A: Analog to Digital Converter](https://github.com/reslabunsoed/modul4_adc_pwm/tree/f475b133e0ab903880fb2ab24aede81f04d8948a/Percobaan%201)
 
 <h3><a href="Percobaan 2">Percobaan 4B: Pulse Width Modulation (PWM)</a></h3>
@@ -114,6 +121,9 @@ Nilai PWM pada Arduino umumnya berkisar antara 0 hingga 255 yang dikontrol mengg
 ```cpp
 analogWrite(pin, value);
 ```
+
+Pada percobaan PWM, praktikan akan mengendalikan intensitas cahaya dari LED dengan menggunakan potensiometer.
+
 Selanjutnya dapat membuka bagian percobaan di [Percobaan 4B : Pulse Width Modulation (PWM)](https://github.com/reslabunsoed/modul4_adc_pwm/tree/f475b133e0ab903880fb2ab24aede81f04d8948a/Percobaan%202)
 
 ## 📚 Pertanyaan Praktikum
