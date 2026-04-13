@@ -138,7 +138,7 @@ Berikut hal yang perlu dilakukan setelah selesai praktikum:
 - Sebelum keluar dari ruang praktikum, pastikan meja dalam keadaan rapi.
 - Jangan lupa untuk mendokumentasikan dalam bentuk foto dan video serta diunggah lewat google drive dan sertakan tautan dokumentasi tersebut di Buku Catatan Praktikum.
 - Pastikan asisten telah menandatangani catatan percobaan kali ini pada Buku Catatan Praktikum Anda. Catatan percobaan yang tidak ditandatangani oleh asisten tidak akan dinilai.
-- Kumpulkan kode program tugas tambahan pada setiap percobaan dalam repository github [Laporan Praktikum](https://github.com/reslabunsoed/modul4_adc_pwm/tree/3cd3e51389ea52b7968ab0ef6452d6716c95323d/Laporan%20Praktikum) dengan format name repository “Kelas(value)_Modul(value)_Nama_NIM”
+- Kumpulkan kode program tugas tambahan pada setiap percobaan dalam repository github [Laporan Praktikum](https://github.com/reslabunsoed/modul4_adc_pwm/tree/3cd3e51389ea52b7968ab0ef6452d6716c95323d/Laporan%20Praktikum) dengan format nama repository “Kelas(value)_Modul(value)_Nama_NIM”
 
 <h2></h2>
 
