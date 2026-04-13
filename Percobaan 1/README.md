@@ -1,8 +1,11 @@
-# Percobaan 1: ......
+# Percobaan 1: Analog to Digital Converter (ADC)
 
 ## 🎯 Tujuan
+- Mampu mengetahui fungsi ```analogRead()```
+- Mampu mengaplikasikan ADC pada Arduino Uno
 
 ## 💡 Spesifikasi yang Diharapkan
+
 
 ## ♻️ Langkah Percobaan
 
