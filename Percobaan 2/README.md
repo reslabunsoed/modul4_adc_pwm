@@ -3,7 +3,7 @@
 ## 🎯 Tujuan
 
 - Memahami konsep dasar PWM (Pulse Width Modulation) sebagai metode untuk menghasilkan sinyal analog semu dari keluaran digital Arduino.
-- Mengetahui cara kerja fungsi ```analogRead()``` pada Arduino Uno dalam menghasilkan variasi duty cycle.
+- Mengetahui cara kerja fungsi ```analogWrite()``` pada Arduino Uno dalam menghasilkan variasi duty cycle.
 
 ## 💡 Spesifikasi yang Diharapkan
 
