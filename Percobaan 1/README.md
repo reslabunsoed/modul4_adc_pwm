@@ -81,7 +81,9 @@ void loop() {
 Membuat rangkaian yang menghubungkan Arduino, Potensiometer dengan pin analog dan motor servo dengan pin PWM menggunakan breadboard sesuai dengan gambar berikut:
 <img width="1536" height="632" alt="potensio_servo" src="https://github.com/user-attachments/assets/3d6b817d-e3c4-403b-b31f-1e70885dcbd2" />
 
-5. Pertanyaan praktikum
+5. Berikutnya compile dan upload program ke dalam Arduino board. Perhatikan dan berikan analisi pada hasil yang terjadi, apakah sesuai dengan spesifikasi atau tidak. Tuliskan di Buku Catatan Praktikum
+
+## 💡 Pertanyaan praktikum
 - Apa fungsi perintah analogRead() pada rangkaian praktikum ini?
 - Mengapa diperlukan fungsi map() dalam program tersebut?
 - Modifikasi program berikut agar servo hanya bergerak dalam rentang 30° hingga 150°, meskipun potensiometer tetap memiliki rentang ADC 0–1023. Jelaskan program pada file README.md
